@@ -1,8 +1,8 @@
 package br.edu.hendrick.main;
 
 public abstract class Matematica {  
-    private int a;
-    private int b;
+    private double a;
+    private double b;
     int result;
 
     public int getA() {
@@ -36,8 +36,4 @@ public abstract class Matematica {
     public String toString() {
         return "Matematica{" + "a=" + a + ", b=" + b + ", result=" + result + '}';
     }
-
-    
-    
-   
 }
